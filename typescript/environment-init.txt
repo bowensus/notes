@@ -1,0 +1,21 @@
+1. windows环境配置
+
+常见错误: SyntaxError: Unexpected token 'export' at wrapSafe (node:internal/modules/cjs/loader:1281:20) at Module._compile
+
+方法：
+node, npm全局配置
+ts, ts-node在项目中配置
+
+控制台：
+cd D:\project-ts
+npm init -y
+npm install --save-dev typescript ts-node  // 项目本地配置ts，ts-node
+npx tsc --init  // 生成tsconfig.json文件
+
+文件配置修改
+tsconfig.json:
+    "module": "CommonJS",
+    "target": "ES2020",
+
+运行
+npx ts-node index.ts
