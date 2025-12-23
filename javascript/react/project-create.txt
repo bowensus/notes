@@ -17,6 +17,7 @@
               { allowConstantExport: true },
             ],
             'no-unused-vars': 'warn',
+            'react/prop-types': 'off',
           },
         
 4. 删除文件
