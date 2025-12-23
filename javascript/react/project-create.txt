@@ -10,15 +10,14 @@
         { 'extents': 'react-app' };
     修改vite.config.js文件
         import eslint from 'vite-plugin-eslint';
-        export default defineConfig({
-          plugins: [
-            react(),
-            eslint({
-              failOnError: false, 
-              failOnWarning: false,
-            }),
-          ],
-        });
+    修改.eslintrc.cjs文件
+        rules: {
+            'react-refresh/only-export-components': [
+              'warn',
+              { allowConstantExport: true },
+            ],
+            'no-unused-vars': 'warn',
+          },
         
 4. 删除文件
     App.css
