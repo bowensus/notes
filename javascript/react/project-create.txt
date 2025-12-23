@@ -11,8 +11,14 @@
     修改vite.config.js文件
         import eslint from 'vite-plugin-eslint';
         export default defineConfig({
-            plugins: [react(), eslint()];
-        })
+          plugins: [
+            react(),
+            eslint({
+              failOnError: false, 
+              failOnWarning: false,
+            }),
+          ],
+        });
         
 4. 删除文件
     App.css
