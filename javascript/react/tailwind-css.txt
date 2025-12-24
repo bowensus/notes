@@ -18,3 +18,18 @@
         @tailwind base;
         @tailwind components;
         @tailwind utilities;
+
+4. 插件安装
+        vscode插件：Tailwind CSS IntelliSence
+        （旧版） 新版参考：https://github.com/tailwindlabs/tailwindcss-intellisense
+        npm install -D prettier prettier-plugin-tailwindcss
+
+5. 文件配置
+        prettier.config.js (ES6)
+
+        const config = {
+          plugins: ["prettier-plugin-tailwindcss"],
+          singleQuote: true,
+        };
+        
+        export default config;
