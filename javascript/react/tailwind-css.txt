@@ -1,0 +1,10 @@
+1. tailwind.css 配置
+    
+    https://tailwindcss.com/docs/installation/using-vite
+    
+    Install Tailwind CSS
+
+    Install tailwindcss and @tailwindcss/vite via npm. （新版）
+
+    npm install -D tailwindcss postcss autoprefixer  
+    npx tailwindcss init -p  (旧版)
