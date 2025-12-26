@@ -1,0 +1,17 @@
+1. 项目部署
+    创建vercel.json文件
+    python < 3.12 且 编码以uft-8（无，否则无法读取json文件）
+    npm install -g vercel
+
+2. 登录vercel
+    vercel login
+
+3. 部署vercel
+    确认在项目环境内 cd D:\your project name
+    vercel .
+    ? Set up and deploy “D:\project-AI”? yes
+    ? Which scope should contain your project? bowen's projects
+    ? Link to existing project? no
+    ? What’s your project’s name? project-ai
+    ? In which directory is your code located? ./
+    ? Do you want to change additional project settings? no
