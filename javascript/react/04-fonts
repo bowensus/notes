@@ -7,7 +7,7 @@
     tailwind.config.css
       theme: {
         fontFamily: {
-          pizza: 'Roboto Mono, monspace',
+          sans: 'Roboto Mono, monspace',
         },
         extend: {},
       },
