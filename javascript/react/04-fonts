@@ -2,3 +2,12 @@
     google fonts roboto mono
     选中字体，在右上角view selected famlities
     复制link到index.html文件
+
+2. 修改文件
+    tailwind.config.css
+      theme: {
+        fontFamily: {
+          pizza: 'Roboto Mono, monspace',
+        },
+        extend: {},
+      },
