@@ -15,3 +15,7 @@
     ? What’s your project’s name? project-ai
     ? In which directory is your code located? ./
     ? Do you want to change additional project settings? no
+
+4. 注意
+    无错别字，文件名，以及pip导入fastapi相关包
+    requirements.txt
