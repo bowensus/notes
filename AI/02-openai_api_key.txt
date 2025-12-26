@@ -1,0 +1,11 @@
+1. 添加openai api密钥
+    platform.openai.com
+    setting -- api key
+
+2. vercel中添加密钥（2种方式）
+  终端添加：vercel env add OPENAI_API_KEY
+  网页添加：project -- setting -- Environment Variables 
+  环境选择全部添加
+
+3. 注意  
+    ctrl+s保存并更新文件，否则不更新文件内容无法push到vercel，任显示旧内容
