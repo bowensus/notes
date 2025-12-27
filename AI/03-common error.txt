@@ -1,0 +1,5 @@
+1. 文件夹
+  确认所有操作vercel link
+  vercel env add OPENAI_API_KEY
+  vercel .
+  在对应的项目文件夹内
