@@ -1,11 +1,25 @@
-1. 文件夹
-  确认所有操作vercel link
-  vercel env add OPENAI_API_KEY
-  vercel .
-  在对应的项目文件夹内
+关于错误404的解决办法，以及Business Idea Generator
 
-2. api文件夹位置
-  必须在项目子文件下（py文件）若ts文件则在pages下
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width"。。。，本质还是api访问失败什么都没有返回。
+
+1. 确保你所有的操作以及vercel环境配置在saas文件夹下进行，而不是在他之外，正确是右边而不是左边的错误示范。上面的标准而不是下面的错误示范。
+ saas/
+  │   api/           
+  ├── pages/            
+  ├── styles/         
+  ├── public/            
+  ├── package.json                     
+  ├── tsconfig.json    
+  ├── next.config.js    
+  └── node_modules/     
+
+ your-project/          
+  ├── saas/            
+  ├── vercel/         
+  ├── requirements.txt/            
+  └── node_modules/     
+
+2. 确保你的api文件位置，教程是py文件，应该在saas文件下，和pages文件应该是并列的，格式如下
   saas/
   │   api/           # API routes directory (we'll remove this)
   │   └── index.py   # Sample API route (we'll remove this)
@@ -21,3 +35,5 @@
   ├── tsconfig.json      # TypeScript configuration
   ├── next.config.js     # Next.js configuration
   └── node_modules/      # Installed packages (auto-generated)
+
+3. 重点注意，可能由于我是在这个课程里开始才用cursor，但cursor好像无法自动保存，也许有更好的方法和设置。但请记住在复制粘贴或者修改代码完成后，执行vercel --prod前确保每个文件都进行了保存，我的方法是关掉所有文件，关闭时会提醒你强制保存。确保每个文件都保存后在检查输出结果。
