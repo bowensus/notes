@@ -1,0 +1,10 @@
+1. vscode插件
+    prettier （必装）
+    ESLint （必装）
+    ES7+ React/Redux/React-Native snippets 代码补全（必装）
+    Material Icon Theme  文件夹图标 （必装）
+    Tailwind CSS IntelliSense
+    vscode-styled-components
+    
+    Chinese （Simplified）
+    
