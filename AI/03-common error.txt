@@ -3,3 +3,21 @@
   vercel env add OPENAI_API_KEY
   vercel .
   在对应的项目文件夹内
+
+2. api文件夹位置
+  必须在项目子文件下（py文件）若ts文件则在pages下
+  saas/
+  │   api/           # API routes directory (we'll remove this)
+  │   └── index.py   # Sample API route (we'll remove this)
+  ├── pages/              # Pages Router directory (where your pages live)
+  │   ├── _app.tsx       # Application wrapper (initializes pages)
+  │   ├── _document.tsx  # Custom document (HTML structure)
+  │   ├── index.tsx      # Homepage (routes to "/")
+  
+  ├── styles/            # Styles directory
+  │   └── globals.css    # Global styles (includes Tailwind)
+  ├── public/            # Static files (images, fonts, etc.)
+  ├── package.json       # Node.js dependencies and scripts
+  ├── tsconfig.json      # TypeScript configuration
+  ├── next.config.js     # Next.js configuration
+  └── node_modules/      # Installed packages (auto-generated)
